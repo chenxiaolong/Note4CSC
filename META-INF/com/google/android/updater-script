@@ -1,3 +1,15 @@
-show_progress(0.100000, 0);
-show_progress(0.500000, 0);
+# Samsung's older update-binary only accepts four arguments for mount()
+#mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "/system", "");
+mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "/system");
+
 package_extract_dir("system", "/system");
+
+# Change build.prop settings to match T-Mobile's ROM
+run_program("/sbin/busybox", "cp", "/system/build.prop", "/system/build.prop.orig");
+run_program("/sbin/busybox", "sed", "-i", "s/ro.product.model=SM-N910W8/ro.product.model=SM-N910T/g", "/system/build.prop");
+run_program("/sbin/busybox", "sed", "-i", "s/ro.product.name=trltecan/ro.product.name=trltetmo/g", "/system/build.prop");
+run_program("/sbin/busybox", "sed", "-i", "s/ro.product.device=trltecan/ro.product.device=trltetmo/g", "/system/build.prop");
+run_program("/sbin/busybox", "sed", "-i", "s/ro.build.product=trltecan/ro.build.product=trltetmo/g", "/system/build.prop");
+run_program("/sbin/busybox", "sed", "-i", "s/ro.product.locale.region=CA/ro.product.locale.region=US/g", "/system/build.prop");
+
+unmount("/system");
