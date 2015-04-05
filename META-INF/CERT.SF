@@ -1,0 +1,230 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: WPPo4NVa7bDxY5INQocuBye4dYI=
+
+Name: system/VODB/it_IT/checked
+SHA1-Digest: s1yrMCx7vExEF9x4BfQTbOtdopg=
+
+Name: system/VODB/de_DE/de_DE-lk-text.lite.res
+SHA1-Digest: p4h0dPjhKc+4ks/A7dtzuxs+Uj0=
+
+Name: system/hidden/INTERNAL_SDCARD/Samsung/Image/1. Skyscraper.jpg
+SHA1-Digest: wxV/Kc1z4L+JUyzmrOWiDB64XMM=
+
+Name: system/VODB/de_DE/files.txt
+SHA1-Digest: ZCAW57z+WFkNKHCKOuFzRi3cdMk=
+
+Name: system/VODB/zh_CN/zh_CN-ak-cur.lite.res
+SHA1-Digest: EPEhCR1+qolJNEd71ZBxf+XNxMc=
+
+Name: system/sipdb/it_IT.zip
+SHA1-Digest: D09RKjhS0p+v/gSFSyLhMOrS7xU=
+
+Name: system/hidden/INTERNAL_SDCARD/Samsung/Image/6. Bridge.jpg
+SHA1-Digest: d57GVN33R9jdfiPhnqroWVWm6hE=
+
+Name: system/VODB/it_IT/files.txt
+SHA1-Digest: +wH9JxX3VjKp+GnkBKMQBkqVrOE=
+
+Name: system/VODB/es_US/es_US.lang
+SHA1-Digest: m8mRHlm1RqP8gPrbN0pWLDItgUU=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: rijWJMyjIXdSi/As4bLg6I0eBeI=
+
+Name: system/hidden/INTERNAL_SDCARD/Samsung/Image/5. Nightscape.jpg
+SHA1-Digest: nGWz+WQFG7x98+7E7MtUJ0mm+Sg=
+
+Name: system/sipdb/fr_FR.zip
+SHA1-Digest: 2DwhkTJyefBN6W/RBloDJ0MpMKM=
+
+Name: system/VODB/it_IT/it_IT.lang
+SHA1-Digest: s1NF0uWfj4fQNPdpVLsWJSegczA=
+
+Name: system/hidden/INTERNAL_SDCARD/Samsung/Image/3. Forest.jpg
+SHA1-Digest: Qd7LsK8BprIIMCU5M1gGxm7RDsw=
+
+Name: system/sipdb/en_US.zip
+SHA1-Digest: dKLp3z3c3H2+5aogDGmkeTFo3BY=
+
+Name: system/VODB/es_US/es_MX-lk-text.lite.res
+SHA1-Digest: XXMfWv5tp3E8A14JERcedDC8rPM=
+
+Name: system/VODB/en_US/en_US-lk-text.lite.res
+SHA1-Digest: tMY4PKNWOOb5jUQtcEnCWa63A8M=
+
+Name: system/VODB/ko_KR/ko_KR.lang
+SHA1-Digest: T2RvkHmtjzzdP5nEOSMdHeyajs4=
+
+Name: system/VODB/ko_KR/checked
+SHA1-Digest: 6JiQ82vZqK+/aaKL4RVlz/13UFw=
+
+Name: system/csc/default_workspace.xml
+SHA1-Digest: c4Y/LmNxqft3OAHRtXVgkxagEP8=
+
+Name: system/sipdb/es_US.zip
+SHA1-Digest: hvWEfZbFiKwTQih62GA6//G1OHk=
+
+Name: system/csc/appresource/CSCAppResource.xml
+SHA1-Digest: vEWOp2xbyc0Ndzgcxu7UzRA0KAA=
+
+Name: system/etc/amzn.mshop.properties
+SHA1-Digest: h0e1mQhVXai1XfAbb7j1LMamfUI=
+
+Name: system/VODB/fr_FR/files.txt
+SHA1-Digest: DVNDJQYCW1F8q8yPlFc2wTTnWl8=
+
+Name: system/sipdb/ko_KR.zip
+SHA1-Digest: OyG/9SOR9n/Ph8COVV2qdJmLFUg=
+
+Name: system/VODB/zh_CN/checked
+SHA1-Digest: 8yL667QKCSe9ST1KY3AyHEdYUjo=
+
+Name: system/csc/contents.db
+SHA1-Digest: gcMPrbUcWCV1EZ9ZHWfrXtx3ufE=
+
+Name: system/csc/appresource/CSCAppResource.apk
+SHA1-Digest: oNtt3W1zn2y/4ataCM/3QfoEQKs=
+
+Name: system/csc/customer.xml
+SHA1-Digest: SQJCx34E6rdWHdTjEL4jSbJC308=
+
+Name: system/etc/csc_user_remove_apks_list.txt
+SHA1-Digest: LyRBOVzsrCj79oAaFID2yOY5Mr8=
+
+Name: system/csc/default_application_order.xml
+SHA1-Digest: MgpsSKioQxOyrDTS2a5mbgOqF9M=
+
+Name: system/sipdb/de_DE.zip
+SHA1-Digest: Ear8VN7onxFmBTB8dm2Lm4Ddl4U=
+
+Name: system/VODB/en_US/checked
+SHA1-Digest: 39xh2g+D0NswHxp6CRDpA1ljJj0=
+
+Name: system/SW_Configuration.xml
+SHA1-Digest: lP/s37xZqypssbIFCRiemN2NxKI=
+
+Name: system/VODB/de_DE/de_DE-ak-cur.lite.res
+SHA1-Digest: OrC63C9tSlMBgAgljKP7hKC2BQU=
+
+Name: system/app/MILK_US.apk
+SHA1-Digest: zlYyRvMeJxvIVvRL0VDKQRnvQK0=
+
+Name: system/VODB/fr_FR/checked
+SHA1-Digest: 2JehHNgpjduopwk2XyyeOZMQ0/E=
+
+Name: system/csc/feature.xml
+SHA1-Digest: QT50X35yzMHEQ0CUgJ/2GCZNbS8=
+
+Name: system/hidden/INTERNAL_SDCARD/Samsung/Image/2. Knitting Balls.jp
+ g
+SHA1-Digest: xKt2EVk6wcLOa2Ll3IgV68JcK2w=
+
+Name: system/VODB/fr_FR/fr_FR-lk-text.lite.res
+SHA1-Digest: vUsl1jNd36rRxURcxYg5SNK3VVI=
+
+Name: system/etc/csc_remove_apks_list.txt
+SHA1-Digest: wXoIF0JGUql5I4OpFuAoX3ETpa8=
+
+Name: system/CSCVersion.txt
+SHA1-Digest: 6VLKXaf1RRxQhfVqJGT/PmE5m+A=
+
+Name: system/VODB/fr_FR/fr_FR-ak-cur.lite.res
+SHA1-Digest: evkv6Gc2IoEo4L5mFMedpyD0ZLU=
+
+Name: system/VODB/it_IT/it_IT-ak-cur.lite.res
+SHA1-Digest: UebuXXTOm8wuErn/wuYXaH4FhdY=
+
+Name: system/etc/csc_user_apks_list.txt
+SHA1-Digest: RPJWLcei2eNMaQoRnwgi2ejp7UE=
+
+Name: system/etc/enforcecopyinglibpackages.txt
+SHA1-Digest: MMWyINw9Z6vW/kelUHooLN3mEK8=
+
+Name: system/csc/others.xml
+SHA1-Digest: WAt7Qh69Qdcl/7i+HwkxVVndp7g=
+
+Name: system/VODB/en_US/en_US-ak-cur.lite.res
+SHA1-Digest: rVHrqWlG3VhHDlwUiVHqPVtCYl4=
+
+Name: system/etc/hidden_apks_list.txt
+SHA1-Digest: cUlLHV8D0odu8sUNPWX9vEufHuY=
+
+Name: system/csc/globalsettings.xml
+SHA1-Digest: MB2Tzl1zGkUYD9DQ2pccCXieNGc=
+
+Name: system/etc/enforceskippingpackages.txt
+SHA1-Digest: C3AZliv9IFbPV69aIKnCpobrncM=
+
+Name: system/VODB/it_IT/it_IT-lk-text.lite.res
+SHA1-Digest: 8AvVPJnNXFX1kbeMQZQKa7KN1Gg=
+
+Name: system/VODB/ko_KR/ko_KR-lk-text.lite.res
+SHA1-Digest: HJ/KlbPkrKCEY5w6YcypUkvA004=
+
+Name: system/VODB/es_US/checked
+SHA1-Digest: FBHqewcNR1J7/CFJC+HOnzWJmlU=
+
+Name: system/VODB/es_US/es_MX-ak-cur.lite.res
+SHA1-Digest: yXwT6oIpRayirwL8UB8X4f7jZf4=
+
+Name: system/VODB/en_US/en_US.lang
+SHA1-Digest: 3dttYiXiahajdyWa3i/XN8BH8qQ=
+
+Name: system/VODB/en_US/files.txt
+SHA1-Digest: a5ZJq3GDLKxl8lKHv3CMSrSUtpo=
+
+Name: system/hidden/INTERNAL_SDCARD/Samsung/Music/Over the Horizon.mp3
+SHA1-Digest: gOl87YS+mc1/0YNKMdmcSV+McVo=
+
+Name: system/csc/imsprofile.xml
+SHA1-Digest: cAusA943FvZqp81EKMFwlJEmRHA=
+
+Name: system/VODB/de_DE/de_DE.lang
+SHA1-Digest: +4YmsLUrKZCZYXr6ueIGfv1NHns=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: X7KKncScZolXFure6md0Ukaw8GU=
+
+Name: system/hidden/INTERNAL_SDCARD/Samsung/Image/4. Structure.jpg
+SHA1-Digest: AbiTOfdN8D59th55Ea9JEguJ/vg=
+
+Name: system/etc/csc_apks_list.txt
+SHA1-Digest: /EzKcXUBd4xlgWWmQVj4CFIeasY=
+
+Name: system/VODB/ko_KR/ko_KR-ak-cur.lite.res
+SHA1-Digest: cdy7gVX7E5TcoDeri9IB4K1eLCc=
+
+Name: system/VODB/zh_CN/files.txt
+SHA1-Digest: WkzWlxfoASAZIajbM4FHZ3Ydryk=
+
+Name: system/VODB/fr_FR/fr_FR.lang
+SHA1-Digest: uc8NTOUixzdSKDGJdvFBuJ95Mg8=
+
+Name: system/VODB/es_US/files.txt
+SHA1-Digest: j9aol93ZcLcE8y9P4ZYQ8LZKE/8=
+
+Name: system/etc/csc_ringtones_list.txt
+SHA1-Digest: VHgyExAlfVY7BxZDXm3DcXf9lpg=
+
+Name: system/VODB/zh_CN/zh_CN.lang
+SHA1-Digest: JhOGU2GlT3n+2m0ijsowijjCNbs=
+
+Name: system/VODB/de_DE/checked
+SHA1-Digest: 3Q4bndh8rkCfQU9uhCOd0oSiVxA=
+
+Name: system/csc/sales_code.dat
+SHA1-Digest: 4VhRAxJL2c5ms7FTzJbiDUboqs0=
+
+Name: system/hidden/INTERNAL_SDCARD/Samsung/Image/7. Starlight.jpg
+SHA1-Digest: GvILoMqK6tQzT/x1eD2fMj2Pf6s=
+
+Name: system/sipdb/zh_CN.zip
+SHA1-Digest: m/IdQU3XYVp7Tf7SQVaNonpSESU=
+
+Name: system/VODB/zh_CN/zh_CN-lk-text.lite.res
+SHA1-Digest: aB9tr5/FggDvzmvbvot1LadESGI=
+
+Name: system/VODB/ko_KR/files.txt
+SHA1-Digest: YTfDDFJ9lbys/G++TyFYvbiLtKk=
+

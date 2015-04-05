@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles>
+    <profile
+        name="Mobile VoLTE/RCS"
+        auth_algo="hmac-md5-96"
+        authname=""
+        enc_algo="aes-cbc"
+        impi=""
+        impu="sip:12345743@example.com,tel:+1234567"
+        ipver="ipv4"
+        mccmnc="310380"
+        pcscf_pref="0"
+        pdn="ims"
+        port="5060"
+        priority="0"
+        regi_algo="MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="false"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp">
+        <network type="lte" services="mmtel,smsip,ss,im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        name="WiFi RCS"
+        impi=""
+        impu="sip:12345743@example.com,tel:+1234567"
+        mccmnc="310380"
+        pdn="wifi">
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        name="CU Mobile VoLTE/RCS"
+        auth_algo="hmac-md5-96"
+        authname=""
+        enc_algo="aes-cbc"
+        ipver="ipv4"
+        mccmnc="46001"
+        password=""
+        pcscf="192.168.1.5"
+        pcscf_pref="2"
+        pdn="ims"
+        port="5060"
+        priority="0"
+        regi_algo="MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="false"
+        timer="1:2000,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp">
+        <network type="lte" services="mmtel-video,smsip,ss,im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        name="CU WiFi RCS"
+        mccmnc="46001"
+        pcscf="192.168.1.5"
+        pcscf_pref="2"
+        pdn="wifi"
+        priority="1">
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        name="CMCC Mobile VoLTE/RCS"
+        auth_algo="both"
+        authname=""
+        enc_algo="all"
+        ipver="ipv6"
+        mccmnc="46000,46002,46007,46008"
+        network="lte"
+        password=""
+        pcscf_pref="0"
+        pdn="ims"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="true"
+        support_ipsec="true"
+        timer="1:2000,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp"
+        globalsettings="CMCC-CHINA">
+        <network type="lte" services="mmtel-video,smsip,im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        name="CMCC Internet PDN"
+        auth_algo="both"
+        authname=""
+        enc_algo="all"
+        ipver="ipv4"
+        mccmnc="46000,46002,46007,46008"
+        network="lte"
+        password=""
+        pcscf_pref="0"
+        pdn="internet"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_ipsec="false"
+        timer="1:2000,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp"
+        globalsettings="CMCC-CHINA">
+        <network type="lte" services="ss"/>
+    </profile>
+
+    <profile
+        name="CMCC WiFi RCS"
+        mccmnc="46000,46002,46007,46008"
+        pcscf="192.168.0.181"
+        pcscf_pref="2"
+        pdn="wifi"
+        priority="1">
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        name="T-Mobile VoLTE"
+        mccmnc="310260,310310,310210,310800,00101:TMB,45001:TMB,45005:TMB,nosim:TMB"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        transport="udp"
+        priority="0"
+        support_ipsec="true"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+		emergency_support="true"
+        globalsettings="TMO-US">
+        <network type="lte" services="mmtel,smsip"/>
+        <network type="wifi" services="mmtel,smsip"/>
+    </profile>
+<!--
+    <profile
+        name="T-Mobile WiFi RCS"
+        mccmnc="310260,310310,310210,00101:TMB,45001:TMB,45005:TMB,nosim:TMB"
+        pcscf="208.54.47.86"
+        port="5061"
+        pcscf_pref="2"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="wifi"
+        transport="tls"
+        priority="1"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        globalsettings="TMO-US-WIFI">
+        <network type="wifi" services="mmtel,smsip,presence,xdm,im,ft,euc"/>
+    </profile>
+
+    <profile
+        enabled="manual"
+        name="T-Mobile WiFi Calling"
+        mccmnc="310260,310310,310210,00101:TMB,45001:TMB,45005:TMB,nosim:TMB"
+        pcscf="wifi.msg.pc.t-mobile.com"
+        port="5060"
+        pcscf_pref="2"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="wifi"
+        transport="tls"
+        priority="1"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        globalsettings="TMO-US-WIFI">
+        <network type="wifi" services="mmtel,smsip"/>
+    </profile>
+ -->
+    <profile
+        name="T-Mobile E911"
+        mccmnc="310260,310310,310210,310800,00101:TMB,45001:TMB,45005:TMB,nosim:TMB"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="emergency"
+        transport="udp"
+        priority="0"
+        support_ipsec="true"
+        timer="1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        emergency_support="true"
+        globalsettings="TMO-US">
+        <network type="lte" services="mmtel"/>
+        <network type="wifi" services="mmtel"/>		
+    </profile>
+
+    <profile
+        name="AT&amp;T VoLTE/IR94/UCE"
+        mccmnc="311180,310410,310150,310170,310380,310680,310560,310070,310090,45001:ATT,45005:ATT,nosim:ATT"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        transport="udp"
+        priority="1"
+        support_ipsec="true"
+        globalsettings="ATT-US">
+        <network type="lte" services="mmtel,mmtel-video,smsip,presence,xdm"/>
+        <network type="umts" services="mmtel,smsip"/>
+        <network type="edge" services="mmtel,smsip"/>
+        <network type="gsm" services="mmtel,smsip"/>
+        <network type="ehrpd" services="mmtel,smsip"/>
+        <network type="hspa" services="mmtel,smsip"/>
+        <network type="hspa+" services="mmtel,smsip"/>
+    </profile>
+
+	<!-- difference among each profiles (ATT) -->
+<!--		
+	<profile
+        name="AT&amp;T VoLTE"
+        globalsettings="ATT-US-VOLTE">
+        <network type="lte" services="mmtel,smsip"/>
+        <network type="umts" services="mmtel,smsip"/>
+        <network type="edge" services="mmtel,smsip"/>
+        <network type="gsm" services="mmtel,smsip"/>
+        <network type="ehrpd" services="mmtel,smsip"/>
+        <network type="hspa" services="mmtel,smsip"/>
+        <network type="hspa+" services="mmtel,smsip"/>
+    </profile>
+	
+	<profile
+        name="AT&amp;T VoLTE/IR94/UCE"
+        globalsettings="ATT-US">
+        <network type="lte" services="mmtel,mmtel-video,smsip,presence,xdm"/>
+        <network type="umts" services="mmtel,smsip"/>
+        <network type="edge" services="mmtel,smsip"/>
+        <network type="gsm" services="mmtel,smsip"/>
+        <network type="ehrpd" services="mmtel,smsip"/>
+        <network type="hspa" services="mmtel,smsip"/>
+        <network type="hspa+" services="mmtel,smsip"/>
+    </profile>
+	
+    <profile
+        globalsettings="ATT-US-RCS">
+        <network type="lte" services="mmtel,mmtel-video,smsip,presence,xdm,im,ft,slm"/>
+        <network type="umts" services="mmtel,mmtel-video,smsip,presence,xdm,im,ft,slm"/>
+        <network type="edge" services="mmtel,mmtel-video,smsip,presence,xdm,im,ft,slm"/>
+        <network type="gsm" services="mmtel,mmtel-video,smsip,presence,xdm,im,ft,slm"/>
+        <network type="ehrpd" services="mmtel,mmtel-video,smsip,presence,xdm,im,ft,slm"/>
+        <network type="hspa" services="mmtel,mmtel-video,smsip,presence,xdm,im,ft,slm"/>
+        <network type="hspa+" services="mmtel,mmtel-video,smsip,presence,xdm,im,ft,slm"/>
+    </profile>
+-->
+    <profile
+        name="AT&amp;T VoLTE Internet PDN"
+        mccmnc="311180,310410,310150,310170,310380,310680,310560,310070,310090,45001:ATT,45005:ATT,nosim:ATT"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="internet"
+        timer="1:2000,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        transport="udp"
+        priority="1"
+        support_ipsec="false"
+        globalsettings="ATT-US">
+        <network type="lte" services="ss"/>
+        <network type="umts" services="ss"/>
+        <network type="edge" services="ss"/>
+        <network type="gsm" services="ss"/>
+        <network type="hspa" services="ss"/>
+        <network type="hspa+" services="ss"/>
+    </profile>
+
+    <profile
+        name="AT&amp;T E911"
+        mccmnc="311180,310410,310150,310170,310380,310680,310560,310070,310090,45001:ATT,45005:ATT,nosim:ATT"
+        pdn="emergency"
+        ipver="ipv6"
+        pcscf_pref="0"
+        port="5060"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        transport="udp"
+        support_ipsec="true"
+        timer="1:2000,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        emergency_support="true"
+        globalsettings="ATT-US">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="VZW VoLTE"
+        mccmnc="311480,45001:VZW,45005:VZW,nosim:VZW"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:3000,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:30000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp"
+        priority="1">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+        <network type="ehrpd" services="smsip"/>
+    </profile>
+
+    <profile
+        name="VzW E911"
+        mccmnc="311480,45001:VZW,45005:VZW,nosim:VZW"
+        pdn="emergency"
+        ipver="ipv4v6"
+        pcscf_pref="0"
+        port="5060"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        timer="1:3000,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:30000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        emergency_support="true"
+        transport="udp">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="Testbed VoLTE/RCS"
+        auth_algo="hmac-md5-96"
+        authname=""
+        enc_algo="none"
+        impi=""
+        impu=""
+        ipver="ipv4"
+        mccmnc="testbed"
+        pcscf_pref="0"
+        pdn="ims"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="false"
+        timer="1:2000,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:32000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp"
+        support_ipsec="true"
+        globalsettings="default">
+        <network type="lte" services="mmtel-video,smsip,ss"/>
+    </profile>
+
+    <profile
+        name="Testbed WiFi RCS"
+        impi=""
+        impu=""
+        mccmnc="testbed"
+        pdn="wifi"
+        priority="1"
+        globalsettings="default">
+        <network type="wifi" services="im,ft,is,vs,options,euc"/>
+    </profile>
+
+    <profile
+        name="Testbed E911"
+        auth_algo="hmac-md5-96"
+        authname=""
+        enc_algo="none"
+        ipver="ipv4"
+        mccmnc="testbed"
+        pcscf_pref="0"
+        pdn="emergency"
+        port="5060"
+        priority="0"
+        regi_algo="AKAv1-MD5"
+        secure_client_port="5000"
+        secure_server_port="6000"
+        support_roaming="false"
+        timer="1:2000,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:32000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp"
+        emergency_support="true"
+        support_ipsec="true"
+        globalsettings="default">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="Singtel VoLTE"
+        mccmnc="52501,52502,52596,52598,52599,52801,00101:SIN,45001:SIN,45005:SIN,nosim:SIN"
+        pcscf="10.254.44.36"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        transport="udp"
+        priority="1"
+        support_ipsec="true"
+        globalsettings="SIN-SIN">
+        <network type="lte" services="mmtel"/>
+    </profile>
+    <profile
+        name="Singtel Open VoLTE for GCF"
+        mccmnc="00101:XSP,45001:XSP,45005:XSP,nosim:XSP"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv6"
+        regi_algo="AKAv1-MD5"
+        auth_algo="both"
+        enc_algo="all"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:32000,C:180000,D:32000,E:2000,F:32000,G:2000,H:32000,I:17000,J:32000,K:17000"
+        transport="udp"
+        priority="1"
+        support_ipsec="true"
+        globalsettings="SIN-SIN">
+        <network type="lte" services="mmtel"/>
+    </profile>
+
+    <profile
+        name="TLS VoLTE"
+        mccmnc="302220,302221,00101:TLS,45001:TLS,45005:TLS,nosim:TLS"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="aes-cbc"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp"
+        priority="1"
+        support_ipsec="true"
+        globalsettings="CANADA-Common">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="BMC VoLTE"
+        mccmnc="302610,00101:BMC,45001:BMC,45005:BMC,nosim:BMC"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="aes-cbc"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp"
+        priority="1"
+        support_ipsec="false"
+        globalsettings="CANADA-Common">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+    <profile
+        name="RWC VoLTE"
+        mccmnc="30272,302720,00101:RWC,45001:RWC,45005:RWC,nosim:RWC"
+        port="5060"
+        pcscf_pref="0"
+        ipver="ipv4"
+        regi_algo="AKAv1-MD5"
+        auth_algo="hmac-md5-96"
+        enc_algo="aes-cbc"
+        pdn="ims"
+        timer="1:2000,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000"
+        transport="udp"
+        priority="1"
+        support_ipsec="false"
+        globalsettings="CANADA-Common">
+        <network type="lte" services="mmtel,mmtel-video,smsip"/>
+    </profile>
+
+</profiles>
+
