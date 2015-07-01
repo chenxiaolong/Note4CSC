@@ -151,16 +151,29 @@ jhwan.kim@hdlnc.com  -->
 <!-- Log -->
 
 <!-- RIL -->
-<CscFeature_RIL_DisplayPlmnByLURejectCause>true</CscFeature_RIL_DisplayPlmnByLURejectCause>
 <CscFeature_RIL_DisableSimToolKitCmds>LaunchBrowser</CscFeature_RIL_DisableSimToolKitCmds>
 <CscFeature_RIL_ForceConnectIMS>false</CscFeature_RIL_ForceConnectIMS>
-<CscFeature_RIL_SsRoutingPolicy>ims</CscFeature_RIL_SsRoutingPolicy>
-<CscFeature_RIL_UssdRoutingPolicy>ims</CscFeature_RIL_UssdRoutingPolicy>
-<CscFeature_RIL_E911RoutingPolicy>epdg</CscFeature_RIL_E911RoutingPolicy>
 <CscFeature_RIL_SupportResetslbFunctionality>true</CscFeature_RIL_SupportResetslbFunctionality>
-<CscFeature_RIL_LockDunApn>true</CscFeature_RIL_LockDunApn>
+<CscFeature_RIL_ConfigFixedApn>dun,bip</CscFeature_RIL_ConfigFixedApn>
 <CscFeature_RIL_RemoveToastDuringBipOperation>true</CscFeature_RIL_RemoveToastDuringBipOperation>
+
+<!-- RIL Call-->
+<CscFeature_RIL_ConfigVolteRedialPolicy>tmo</CscFeature_RIL_ConfigVolteRedialPolicy>
+<CscFeature_RIL_DisplayPlmnByLURejectCause>true</CscFeature_RIL_DisplayPlmnByLURejectCause>
+<CscFeature_RIL_E911RoutingPolicy>epdg</CscFeature_RIL_E911RoutingPolicy>
+<CscFeature_RIL_RerouteSsToSip>true</CscFeature_RIL_RerouteSsToSip>
+<CscFeature_RIL_SetVolteCalllistToQcCp>true</CscFeature_RIL_SetVolteCalllistToQcCp>
+<CscFeature_RIL_SsRoutingPolicy>ims</CscFeature_RIL_SsRoutingPolicy>
+<CscFeature_RIL_SsUsingUt>true</CscFeature_RIL_SsUsingUt>
+<CscFeature_RIL_SupportCallOnAirplaneMode>true</CscFeature_RIL_SupportCallOnAirplaneMode>
+<CscFeature_RIL_SupportEpdg>true</CscFeature_RIL_SupportEpdg>
+<CscFeature_RIL_SupportEpdgOnAirplaneMode>true</CscFeature_RIL_SupportEpdgOnAirplaneMode>
+<CscFeature_RIL_SupportImsService>true</CscFeature_RIL_SupportImsService>
+<CscFeature_RIL_SupportSrvcc>true</CscFeature_RIL_SupportSrvcc>
+<CscFeature_RIL_SupportVolte>true</CscFeature_RIL_SupportVolte>
 <CscFeature_RIL_SupportVolteE911>true</CscFeature_RIL_SupportVolteE911>
+<CscFeature_RIL_SupportVolteVtCall>true</CscFeature_RIL_SupportVolteVtCall>
+<CscFeature_RIL_UssdRoutingPolicy>ims</CscFeature_RIL_UssdRoutingPolicy>
 
 <!-- Settings -->
 <CscFeature_Setting_DisableMenuFindMyMobile>false</CscFeature_Setting_DisableMenuFindMyMobile>
@@ -175,20 +188,22 @@ jhwan.kim@hdlnc.com  -->
 <CscFeature_Settings_GOTA>false</CscFeature_Settings_GOTA>
 <CscFeature_Settings_4GProvisioning>false</CscFeature_Settings_4GProvisioning>
 <CscFeature_Setting_EnableEditingIpVersionType>true</CscFeature_Setting_EnableEditingIpVersionType>
+<CscFeature_Setting_RemoveDisableButtonInAppMgr>com.carrieriq.tmobile,com.carrieriq.tmobile.IQOOB,com.carrieriq.tmobile.IQToggle</CscFeature_Setting_RemoveDisableButtonInAppMgr>
 <CscFeature_Setting_HideApnList>pcweb.tmobile.com,ims,tmus</CscFeature_Setting_HideApnList>
+<CscFeature_Setting_ConfigForbidAppDisableButton>com.tmobile.pr.mytmobile,com.tmobile.pr.adapt</CscFeature_Setting_ConfigForbidAppDisableButton>
 
 <!-- MMApp -->
 <CscFeature_FMRadioRTPlus>true</CscFeature_FMRadioRTPlus>
 <CscFeature_FMRadioSEASetting>false</CscFeature_FMRadioSEASetting>
 
 <!-- NFC -->
+<CscFeature_NFC_ConfigAdvancedSettings>Disable</CscFeature_NFC_ConfigAdvancedSettings>
+<CscFeature_NFC_DefaultCardModeConfig>DH:UICC</CscFeature_NFC_DefaultCardModeConfig>
+<CscFeature_NFC_DefStatus>OFF</CscFeature_NFC_DefStatus>
 <CscFeature_NFC_SetSecureEventType>ISIS</CscFeature_NFC_SetSecureEventType>
+<CscFeature_NFC_StatusBarIconType>Tmo</CscFeature_NFC_StatusBarIconType>
 <CscFeature_SmartcardSvc_SetAccessControlType>GAC</CscFeature_SmartcardSvc_SetAccessControlType>
 <CscFeature_SmartcardSvc_HideTerminalCapability>eSE</CscFeature_SmartcardSvc_HideTerminalCapability>
-<CscFeature_NFC_StatusBarIconType>Tmo</CscFeature_NFC_StatusBarIconType>
-<CscFeature_NFC_DefStatus>OFF</CscFeature_NFC_DefStatus>
-<CscFeature_NFC_DefaultCardModeConfig>DH:UICC</CscFeature_NFC_DefaultCardModeConfig>
-<CscFeature_NFC_ConfigAdvancedSettings>Disable</CscFeature_NFC_ConfigAdvancedSettings>
 
 <!-- WEB -->
 <CscFeature_Web_SetUserAgent></CscFeature_Web_SetUserAgent>
@@ -216,6 +231,7 @@ jhwan.kim@hdlnc.com  -->
 <CscFeature_Web_BlockZoomBaseOnTouchPosition>true</CscFeature_Web_BlockZoomBaseOnTouchPosition>
 <CscFeature_Web_ShowBubbleTextNoLayout>true</CscFeature_Web_ShowBubbleTextNoLayout>
 <CscFeature_Web_ConfigEditableBookmark>false</CscFeature_Web_ConfigEditableBookmark>
+<CscFeature_Web_ConfigSyncSource>TRUE</CscFeature_Web_ConfigSyncSource>
 
 <!-- Email -->
 <CscFeature_Email_UseFixedBgColorAsWhite>true</CscFeature_Email_UseFixedBgColorAsWhite>
@@ -234,7 +250,6 @@ jhwan.kim@hdlnc.com  -->
 
 <!-- SIP -->
 <CscFeature_Sip_DisableMenuKeyboardSwipe>true</CscFeature_Sip_DisableMenuKeyboardSwipe>
-<CscFeature_Sip_EnableContinuousInputInAllEditField>true</CscFeature_Sip_EnableContinuousInputInAllEditField>
 <CscFeature_Sip_ApplyAutoCorrectionPatent>true</CscFeature_Sip_ApplyAutoCorrectionPatent>
 <CscFeature_Sip_DefaultMultiModalKeyAs>VOICE</CscFeature_Sip_DefaultMultiModalKeyAs>
 <CscFeature_Sip_DefaultMultiModalKeyOnHandwritingAs>VOICE</CscFeature_Sip_DefaultMultiModalKeyOnHandwritingAs>
@@ -244,9 +259,11 @@ jhwan.kim@hdlnc.com  -->
 <CscFeature_Sip_KeepDefInputMethodAs>QWERTY</CscFeature_Sip_KeepDefInputMethodAs>
 <CscFeature_Sip_EnableLanguageToggleButton>false</CscFeature_Sip_EnableLanguageToggleButton>
 <CscFeature_Sip_UseBackKeyToClosePopupKeyboard>true</CscFeature_Sip_UseBackKeyToClosePopupKeyboard>
-<CscFeatureSipAddCommaKeyAsDefault>true</CscFeatureSipAddCommaKeyAsDefault>
-<CscFeature_Sip_TutorialPopupType>ONE</CscFeature_Sip_TutorialPopupType>
+<CscFeature_Sip_AddCommaKeyAsDefault>true</CscFeature_Sip_AddCommaKeyAsDefault>
 <CscFeature_Sip_AlternativeCharPopupInput>Stay</CscFeature_Sip_AlternativeCharPopupInput>
+<CscFeature_Sip_TutorialPopupType>ONE</CscFeature_Sip_TutorialPopupType>
+<CscFeature_Sip_ConfigCMKey>OFF</CscFeature_Sip_ConfigCMKey>
+<CscFeature_Sip_ConfigOpBranding>TMO</CscFeature_Sip_ConfigOpBranding>
 
 <!-- IMS -->
 <CscFeature_IMS_EnableIMS>false</CscFeature_IMS_EnableIMS>
@@ -256,9 +273,12 @@ jhwan.kim@hdlnc.com  -->
 <CscFeature_IMS_EnableRCSPresence>false</CscFeature_IMS_EnableRCSPresence>
 <CscFeature_IMS_FrameworkVersion>5.0</CscFeature_IMS_FrameworkVersion>
 
-<!-- WFC -->
-<CscFeature_WFC_EnableSamsungWfc>true</CscFeature_WFC_EnableSamsungWfc>
-<CscFeature_WFC_PLMN>T-Mobile</CscFeature_WFC_PLMN>
+<!-- TMO WFC -->
+<CscFeature_Common_SupportSecWFC>true</CscFeature_Common_SupportSecWFC>
+<CscFeature_Common_ConfigOpBrandingForWFC>T-Mobile</CscFeature_Common_ConfigOpBrandingForWFC>
+
+<!-- CIQ -->
+<CscFeature_CIQ_BroadcastState>true</CscFeature_CIQ_BroadcastState>
 
 <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
 

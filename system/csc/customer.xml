@@ -271,15 +271,15 @@
       </QuickAccess>
       <QuickAccess>
         <QATitle>TripAdvisor</QATitle>
-        <QAURL>http://www.tripadvisor.com?m=22099</QAURL>
+        <QAURL>http://www.tripadvisor.com/?m=22099</QAURL>
       </QuickAccess>
       <QuickAccess>
         <QATitle>TicketMaster</QATitle>
         <QAURL>http://www.awin1.com/cread.php?awinmid=4103&amp;awinaffid=213569&amp;clickref=&amp;p=http://m.ticketmaster.com</QAURL>
       </QuickAccess>
       <QuickAccess>
-        <QATitle>Samsung C&amp;S</QATitle>
-        <QAURL>http://content.samsung.com/?cid=QuickAccess</QAURL>
+        <QATitle>CNN</QATitle>
+        <QAURL>http://us.cnn.com/</QAURL>
       </QuickAccess>
     </Browser>
     <SyncML>

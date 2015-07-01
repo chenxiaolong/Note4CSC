@@ -1,3 +1,4 @@
-2
+3
+WebManual.apk
 WhatsApp.apk
 SamsungWallet.apk
