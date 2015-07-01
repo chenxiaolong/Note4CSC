@@ -188,7 +188,6 @@ jhwan.kim@hdlnc.com  -->
 <CscFeature_Settings_GOTA>false</CscFeature_Settings_GOTA>
 <CscFeature_Settings_4GProvisioning>false</CscFeature_Settings_4GProvisioning>
 <CscFeature_Setting_EnableEditingIpVersionType>true</CscFeature_Setting_EnableEditingIpVersionType>
-<CscFeature_Setting_RemoveDisableButtonInAppMgr>com.carrieriq.tmobile,com.carrieriq.tmobile.IQOOB,com.carrieriq.tmobile.IQToggle</CscFeature_Setting_RemoveDisableButtonInAppMgr>
 <CscFeature_Setting_HideApnList>pcweb.tmobile.com,ims,tmus</CscFeature_Setting_HideApnList>
 <CscFeature_Setting_ConfigForbidAppDisableButton>com.tmobile.pr.mytmobile,com.tmobile.pr.adapt</CscFeature_Setting_ConfigForbidAppDisableButton>
 
@@ -276,9 +275,6 @@ jhwan.kim@hdlnc.com  -->
 <!-- TMO WFC -->
 <CscFeature_Common_SupportSecWFC>true</CscFeature_Common_SupportSecWFC>
 <CscFeature_Common_ConfigOpBrandingForWFC>T-Mobile</CscFeature_Common_ConfigOpBrandingForWFC>
-
-<!-- CIQ -->
-<CscFeature_CIQ_BroadcastState>true</CscFeature_CIQ_BroadcastState>
 
 <CscFeature_Common_ConfigEmergencyModePackages>com.ipsec.service,com.sec.android.providers.iwlansettings,com.sec.android.providers.mapcon</CscFeature_Common_ConfigEmergencyModePackages>
 

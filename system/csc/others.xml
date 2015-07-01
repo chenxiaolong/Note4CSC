@@ -18,7 +18,6 @@
     <CscFeature_Contact_ExtendSpeedDialTo100>TRUE</CscFeature_Contact_ExtendSpeedDialTo100>
     <CscFeature_Setting_EnableEditingIpVersionType>TRUE</CscFeature_Setting_EnableEditingIpVersionType>
     <CscFeature_Setting_DisableMenuFindMyMobile>TRUE</CscFeature_Setting_DisableMenuFindMyMobile>
-    <CscFeature_Setting_RemoveDisableButtonInAppMgr>com.carrieriq.tmobile,com.carrieriq.tmobile.IQOOB,com.carrieriq.tmobile.IQToggle</CscFeature_Setting_RemoveDisableButtonInAppMgr>
     <CscFeature_Launcher_EnableViewByAlphabetAsDefault>TRUE</CscFeature_Launcher_EnableViewByAlphabetAsDefault>
     <CscFeature_Calendar_EnableShiftedWeekNumber>TRUE</CscFeature_Calendar_EnableShiftedWeekNumber>
     <CscFeature_Calendar_SetColorOfDays>XXXXXXX</CscFeature_Calendar_SetColorOfDays>
